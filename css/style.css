@@ -245,7 +245,7 @@ p.text{
     margin-top: 30px;
 	padding-bottom:4em;
 }
-.cl-servicios h3, .productos-info h3, .team h3, .contact h3, .productos h3, .galeria h3, .seccionTransformaciones h3{
+.cl-servicios h3, .productos-info h3, .team h3, .contact h3, .productos h3, .galeria h3{
 	font-size: 3em;
     color:#fff;
 	text-align:center;
@@ -1445,6 +1445,12 @@ h3.margen{
     color: #fff;
 }
 
+.seccionTransformaciones h3{
+    font-size: 2em;
+    color:#fff;
+	text-align:center;
+}
+
 .seccionTransformaciones .gallery{
     margin: auto;
     margin-top: 70px;
@@ -1457,25 +1463,35 @@ h3.margen{
 }
 
 .seccionTransformaciones .gallery .item{
-    width: 23%;
+    width: 31.43%;
     margin: 10px;
 }
-
-@media screen and (max-width:480px){
+@media screen and (max-width:362px){
     .seccionTransformaciones .gallery .item{
         width: 26.33%;
     }
 }
+@media screen and (max-width:480px) and (min-width:363px){
+    .seccionTransformaciones .gallery .item{
+        width: 27.33%;
+    }
+}
 
-@media screen and (max-width:1029px) and (min-width:630px){
+@media screen and (max-width:1029px) and (min-width:648px){
     .seccionTransformaciones .gallery .item{
         width: 30%;
     }
 }
 
-@media screen and (max-width:629px) and (min-width:492px){
+@media screen and (max-width:1092px) and (min-width:1030px){
     .seccionTransformaciones .gallery .item{
-        width: 28%;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:647px) and (min-width:492px){
+    .seccionTransformaciones .gallery .item{
+        width: 29%;
     }
 }
 
